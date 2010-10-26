@@ -1,0 +1,15 @@
+
+Scripts to mirror and unzip the PDB
+
+
+
+Here is what my crontab looked like (no guarantees!)
+
+# Try to use /bin/sh to run commands
+SHELL=/bin/sh
+#
+# Update the PDB archive every Wednesday at 11:20am. No longer necessary!
+#20 11 * * 3 /project/StruPPi/BiO/DBd/PDB/update.sh
+
+# Update the PDB-REMEDIATED archive every Thursday at 11:20am.
+#20 14 * * 4 /project/StruPPi/BiO/DBd/PDB-REMEDIATED/update.sh
