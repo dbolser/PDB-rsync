@@ -1,0 +1,19 @@
+
+# A list of files to exclude from rsync
+# Thu Nov 22 14:46:11 CET 2007
+
+# Firstly, exclude *this* file!
+exclude.list
+
+# Nextly, exclude the file that describes this file.
+WARNING-READ-THIS
+
+# We do not want rsync to play with this!
+data/structures/unzipped
+
+# Finally, exclude the scripts that manage the weekly update.
+update.sh
+recifPDB-v1.0.sh
+rsyncPDB-v1.0.sh
+unzipPDB-v1.0.plx
+rsync.log
